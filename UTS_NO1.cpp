@@ -5,8 +5,8 @@ using namespace std;
 int main() {
     system("CLS");
     // Deklarasi variabel
-    char KOM,NilaiHuruf;
-    string Nama,NIM,MataKuliah,NamaDosenPA;
+    char KOM;
+    string Nama,NIM,MataKuliah,NamaDosenPA,NilaiHuruf;
     int Kehadiran;
     float NilaiTugas,NilaiQuiz,NilaiUTS,NilaiUAS,JumlahKehadiran,Tugas,Quiz,UTS,UAS,NilaiAkhir;
     // Inputan
@@ -31,11 +31,11 @@ int main() {
     if (NilaiAkhir >= 80 & NilaiAkhir <= 100) {
         NilaiHuruf = 'A';
     } else if (NilaiAkhir >= 75  && NilaiAkhir < 80) {
-        NilaiHuruf = 'B+';
+        NilaiHuruf = "B+";
     } else if (NilaiAkhir >= 70  && NilaiAkhir < 75) {
         NilaiHuruf = 'B';
     } else if (NilaiAkhir >= 65  && NilaiAkhir < 70) {
-        NilaiHuruf = 'C+';
+        NilaiHuruf = "C+";
     } else if (NilaiAkhir >= 60  && NilaiAkhir < 65) {
         NilaiHuruf = 'C';
     } else if (NilaiAkhir >= 50  && NilaiAkhir <60) {
